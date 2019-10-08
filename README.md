@@ -21,6 +21,8 @@ Be sure to fill correcly the fields below:
 
 Read the documentation of Oracle Commerce Cloud API at https://docs.oracle.com/en/cloud/saas/commerce-cloud/cxocc/
 
+**CAUTION:** this script delete all existing resources before upload file data
+
 ---
 
 After configure the properties you can run the script with npm:
