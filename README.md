@@ -1,7 +1,7 @@
 # oracle-cc-upload-data
 A script to upload data to Oracle Commerce Cloud from file
 
-**In this script you can configure your Oracle Commerce Cloud account to be able to upload your file data**
+**In this script you can configure a Oracle Commerce Cloud account to be able to upload your file data**
 
 Be sure to fill correcly the fields below:
 
@@ -17,8 +17,12 @@ Be sure to fill correcly the fields below:
 
 **SCHEMA** = An Object where each key is named with each sheet you want to upload, and its content its a value pair where the key is the field name informed in the Resource API documentation and the value is the column letter represented in your sheet;
 
-***
+---
 
-After configure the properties you can run the script from npm:
+Read the documentation of Oracle Commerce Cloud API at https://docs.oracle.com/en/cloud/saas/commerce-cloud/cxocc/
+
+---
+
+After configure the properties you can run the script with npm:
 
 > npm start
